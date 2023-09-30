@@ -8,7 +8,7 @@ This is a collection of mods I have made for the game [Crab Champions](https://s
 	1. Download and install [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS).
 	2. Dump all the Lua and Cxx bindings for the game.
 	3. Use the live viewer to find function/objects
-	4. Experiment! This is a very new thing for this game. It is also new to me. I have never made mods for unity games outside of astroneer which has a modding SDK already
+	4. Experiment! This is a very new thing for this game. It is also new to me. I have never made mods for unreal games outside of astroneer which has a modding SDK already
 	5. Publish! Feel free to make a PR to this github page or make a page on a place like nexus or modDB if there isnt one already! 
 	6. If you need any help feel free to DM me on discord at `duckos_mods`. While im not the best I hope I can be of some use!  
 # Installing
