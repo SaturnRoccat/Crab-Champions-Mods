@@ -45,12 +45,3 @@ function ModifyItemLevel(CRAB, nim)
     end)
 end
 RegisterHook("/Script/CrabChampions.CrabPC:ClientOnEnteredPortal", ModifyItemLevel, CRAB, nim);
-
-
-
-
-
-
-
-
--- NotifyOnNewObject("/Script/Engine.PlayerController", LoopChests, CreatedObject)
