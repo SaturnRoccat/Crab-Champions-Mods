@@ -10,3 +10,5 @@ mods.txt
 /ActorDumperMod
 /Itemiser/noteData.txt
 /.vscode
+/KismetDebugger
+.luarc.json

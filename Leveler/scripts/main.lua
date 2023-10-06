@@ -23,21 +23,18 @@ function ModifyItemLevel(CRAB, nim)
                     local mod = wmod:get();
                     mod.Level = math.random(0, 255);
                     mod.WeaponModDA.WeaponModType = math.random(1, 83);
-                    -- wmod:set(mod);
                 end)
                 ---@param wmod FCrabGrenadeMod
                 v.GrenadeMods:ForEach(function(index, wmod)
                     ---@type FCrabGrenadeMod
                     local mod = wmod:get();
                     mod.Level = math.random(0, 255);
-                    -- wmod:set(mod);
                 end)
                 ---@param wmod FCrabPerk
                 v.Perks:ForEach(function(index, wmod)
                     ---@type FCrabPerk
                     local mod = wmod:get();
                     mod.Level = math.random(0, 255);
-                    -- wmod:set(mod);
                 end)
             end
         end
