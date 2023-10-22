@@ -1991,3 +1991,773 @@
             
     end)
     
+        print("hooking /Script/CrabChampions.CrabAOEActionDA!");
+        function CrabAOEActionDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabAOEActionDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabAOEActionDA", CrabAOEActionDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabAOEDA!");
+        function CrabAOEDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabAOEDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabAOEDA", CrabAOEDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabActionDA!");
+        function CrabActionDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabActionDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabActionDA", CrabActionDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabAnimInstance!");
+        function CrabAnimInstance_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabAnimInstance!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabAnimInstance", CrabAnimInstance_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabArmorDA!");
+        function CrabArmorDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabArmorDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabArmorDA", CrabArmorDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabArrowSelectionUI!");
+        function CrabArrowSelectionUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabArrowSelectionUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabArrowSelectionUI", CrabArrowSelectionUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabBananaPickup!");
+        function CrabBananaPickup_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabBananaPickup!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabBananaPickup", CrabBananaPickup_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabBiomeDA!");
+        function CrabBiomeDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabBiomeDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabBiomeDA", CrabBiomeDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabBossC!");
+        function CrabBossC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabBossC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabBossC", CrabBossC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabC!");
+        function CrabC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabC", CrabC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabCMC!");
+        function CrabCMC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabCMC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabCMC", CrabCMC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabChatEntryRowUI!");
+        function CrabChatEntryRowUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabChatEntryRowUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabChatEntryRowUI", CrabChatEntryRowUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabCheckpoint!");
+        function CrabCheckpoint_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabCheckpoint!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabCheckpoint", CrabCheckpoint_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabChest!");
+        function CrabChest_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabChest!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabChest", CrabChest_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabConfirmationPromptUI!");
+        function CrabConfirmationPromptUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabConfirmationPromptUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabConfirmationPromptUI", CrabConfirmationPromptUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabControlsMenuUI!");
+        function CrabControlsMenuUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabControlsMenuUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabControlsMenuUI", CrabControlsMenuUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabCosmeticC!");
+        function CrabCosmeticC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabCosmeticC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabCosmeticC", CrabCosmeticC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabCosmeticSlotUI!");
+        function CrabCosmeticSlotUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabCosmeticSlotUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabCosmeticSlotUI", CrabCosmeticSlotUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabCosmeticsDA!");
+        function CrabCosmeticsDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabCosmeticsDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabCosmeticsDA", CrabCosmeticsDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabCosmeticsMenuUI!");
+        function CrabCosmeticsMenuUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabCosmeticsMenuUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabCosmeticsMenuUI", CrabCosmeticsMenuUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabCrosshairUI!");
+        function CrabCrosshairUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabCrosshairUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabCrosshairUI", CrabCrosshairUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabCrown!");
+        function CrabCrown_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabCrown!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabCrown", CrabCrown_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabCrystalBundleDA!");
+        function CrabCrystalBundleDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabCrystalBundleDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabCrystalBundleDA", CrabCrystalBundleDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabCrystalPickup!");
+        function CrabCrystalPickup_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabCrystalPickup!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabCrystalPickup", CrabCrystalPickup_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabDamageArea!");
+        function CrabDamageArea_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabDamageArea!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabDamageArea", CrabDamageArea_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabDamageInterface!");
+        function CrabDamageInterface_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabDamageInterface!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabDamageInterface", CrabDamageInterface_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabDamageTextActor!");
+        function CrabDamageTextActor_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabDamageTextActor!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabDamageTextActor", CrabDamageTextActor_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabDamageTextUI!");
+        function CrabDamageTextUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabDamageTextUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabDamageTextUI", CrabDamageTextUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabDestructible!");
+        function CrabDestructible_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabDestructible!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabDestructible", CrabDestructible_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabDifficultyMenuUI!");
+        function CrabDifficultyMenuUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabDifficultyMenuUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabDifficultyMenuUI", CrabDifficultyMenuUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabDifficultyModifierUI!");
+        function CrabDifficultyModifierUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabDifficultyModifierUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabDifficultyModifierUI", CrabDifficultyModifierUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabEnemyAIC!");
+        function CrabEnemyAIC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabEnemyAIC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabEnemyAIC", CrabEnemyAIC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabEnemyAnimInstance!");
+        function CrabEnemyAnimInstance_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabEnemyAnimInstance!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabEnemyAnimInstance", CrabEnemyAnimInstance_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabEnemyC!");
+        function CrabEnemyC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabEnemyC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabEnemyC", CrabEnemyC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabEnemyEQC!");
+        function CrabEnemyEQC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabEnemyEQC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabEnemyEQC", CrabEnemyEQC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabFireWeaponActionDA!");
+        function CrabFireWeaponActionDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabFireWeaponActionDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabFireWeaponActionDA", CrabFireWeaponActionDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabFocusMenuUI!");
+        function CrabFocusMenuUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabFocusMenuUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabFocusMenuUI", CrabFocusMenuUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabGI!");
+        function CrabGI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabGI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabGI", CrabGI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabGM!");
+        function CrabGM_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabGM!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabGM", CrabGM_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabGS!");
+        function CrabGS_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabGS!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabGS", CrabGS_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabGameOverRowUI!");
+        function CrabGameOverRowUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabGameOverRowUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabGameOverRowUI", CrabGameOverRowUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabGameOverUI!");
+        function CrabGameOverUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabGameOverUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabGameOverUI", CrabGameOverUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabGameStateUI!");
+        function CrabGameStateUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabGameStateUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabGameStateUI", CrabGameStateUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabGameplayUI!");
+        function CrabGameplayUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabGameplayUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabGameplayUI", CrabGameplayUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabGrenadeModDA!");
+        function CrabGrenadeModDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabGrenadeModDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabGrenadeModDA", CrabGrenadeModDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabHC!");
+        function CrabHC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabHC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabHC", CrabHC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabHealthBarUI!");
+        function CrabHealthBarUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabHealthBarUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabHealthBarUI", CrabHealthBarUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabHealthPickup!");
+        function CrabHealthPickup_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabHealthPickup!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabHealthPickup", CrabHealthPickup_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabHeartDA!");
+        function CrabHeartDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabHeartDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabHeartDA", CrabHeartDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabInGameMenuUI!");
+        function CrabInGameMenuUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabInGameMenuUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabInGameMenuUI", CrabInGameMenuUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabInteractPickup!");
+        function CrabInteractPickup_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabInteractPickup!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabInteractPickup", CrabInteractPickup_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabInteractUI!");
+        function CrabInteractUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabInteractUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabInteractUI", CrabInteractUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabInteractable!");
+        function CrabInteractable_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabInteractable!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabInteractable", CrabInteractable_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabInventoryDA!");
+        function CrabInventoryDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabInventoryDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabInventoryDA", CrabInventoryDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabInventoryEventUI!");
+        function CrabInventoryEventUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabInventoryEventUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabInventoryEventUI", CrabInventoryEventUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabInventorySlotUI!");
+        function CrabInventorySlotUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabInventorySlotUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabInventorySlotUI", CrabInventorySlotUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabInventoryUI!");
+        function CrabInventoryUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabInventoryUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabInventoryUI", CrabInventoryUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabInviteFriendRowUI!");
+        function CrabInviteFriendRowUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabInviteFriendRowUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabInviteFriendRowUI", CrabInviteFriendRowUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabIslandProgressionUI!");
+        function CrabIslandProgressionUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabIslandProgressionUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabIslandProgressionUI", CrabIslandProgressionUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabJoinedPlayerRowUI!");
+        function CrabJoinedPlayerRowUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabJoinedPlayerRowUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabJoinedPlayerRowUI", CrabJoinedPlayerRowUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabKeyBindRowUI!");
+        function CrabKeyBindRowUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabKeyBindRowUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabKeyBindRowUI", CrabKeyBindRowUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabKeyDA!");
+        function CrabKeyDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabKeyDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabKeyDA", CrabKeyDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabLM!");
+        function CrabLM_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabLM!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabLM", CrabLM_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabLaunchActionDA!");
+        function CrabLaunchActionDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabLaunchActionDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabLaunchActionDA", CrabLaunchActionDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabLaunchPad!");
+        function CrabLaunchPad_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabLaunchPad!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabLaunchPad", CrabLaunchPad_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabMultiplayerMenuUI!");
+        function CrabMultiplayerMenuUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabMultiplayerMenuUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabMultiplayerMenuUI", CrabMultiplayerMenuUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabOverlapInterface!");
+        function CrabOverlapInterface_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabOverlapInterface!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabOverlapInterface", CrabOverlapInterface_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabOverlapPickup!");
+        function CrabOverlapPickup_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabOverlapPickup!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabOverlapPickup", CrabOverlapPickup_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPC!");
+        function CrabPC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPC", CrabPC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPMC!");
+        function CrabPMC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPMC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPMC", CrabPMC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPS!");
+        function CrabPS_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPS!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPS", CrabPS_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPerkDA!");
+        function CrabPerkDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPerkDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPerkDA", CrabPerkDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPhysicsActor!");
+        function CrabPhysicsActor_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPhysicsActor!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPhysicsActor", CrabPhysicsActor_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPickupDA!");
+        function CrabPickupDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPickupDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPickupDA", CrabPickupDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPingUI!");
+        function CrabPingUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPingUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPingUI", CrabPingUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPlayerAnimInstance!");
+        function CrabPlayerAnimInstance_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPlayerAnimInstance!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPlayerAnimInstance", CrabPlayerAnimInstance_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPlayerC!");
+        function CrabPlayerC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPlayerC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPlayerC", CrabPlayerC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPlayerNameUI!");
+        function CrabPlayerNameUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPlayerNameUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPlayerNameUI", CrabPlayerNameUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPlayerStateUI!");
+        function CrabPlayerStateUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPlayerStateUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPlayerStateUI", CrabPlayerStateUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPortal!");
+        function CrabPortal_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPortal!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPortal", CrabPortal_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabPortalInteractUI!");
+        function CrabPortalInteractUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabPortalInteractUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabPortalInteractUI", CrabPortalInteractUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabProjectile!");
+        function CrabProjectile_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabProjectile!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabProjectile", CrabProjectile_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabProjectileActionDA!");
+        function CrabProjectileActionDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabProjectileActionDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabProjectileActionDA", CrabProjectileActionDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabProjectileDA!");
+        function CrabProjectileDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabProjectileDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabProjectileDA", CrabProjectileDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabProximityExplodeActionDA!");
+        function CrabProximityExplodeActionDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabProximityExplodeActionDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabProximityExplodeActionDA", CrabProximityExplodeActionDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabSG!");
+        function CrabSG_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabSG!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabSG", CrabSG_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabSettingsMenuUI!");
+        function CrabSettingsMenuUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabSettingsMenuUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabSettingsMenuUI", CrabSettingsMenuUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabSettingsSG!");
+        function CrabSettingsSG_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabSettingsSG!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabSettingsSG", CrabSettingsSG_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabShopPedestal!");
+        function CrabShopPedestal_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabShopPedestal!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabShopPedestal", CrabShopPedestal_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabShopPedestalUI!");
+        function CrabShopPedestalUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabShopPedestalUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabShopPedestalUI", CrabShopPedestalUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabSliderUI!");
+        function CrabSliderUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabSliderUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabSliderUI", CrabSliderUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabSoundMenuUI!");
+        function CrabSoundMenuUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabSoundMenuUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabSoundMenuUI", CrabSoundMenuUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabSpawnActionDA!");
+        function CrabSpawnActionDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabSpawnActionDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabSpawnActionDA", CrabSpawnActionDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabSpawnPoint!");
+        function CrabSpawnPoint_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabSpawnPoint!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabSpawnPoint", CrabSpawnPoint_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabSpawnablesDA!");
+        function CrabSpawnablesDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabSpawnablesDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabSpawnablesDA", CrabSpawnablesDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabSpectatorC!");
+        function CrabSpectatorC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabSpectatorC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabSpectatorC", CrabSpectatorC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabStatics!");
+        function CrabStatics_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabStatics!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabStatics", CrabStatics_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabStatsPedestal!");
+        function CrabStatsPedestal_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabStatsPedestal!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabStatsPedestal", CrabStatsPedestal_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabStatsUI!");
+        function CrabStatsUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabStatsUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabStatsUI", CrabStatsUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabStrike!");
+        function CrabStrike_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabStrike!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabStrike", CrabStrike_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabStrikeActionDA!");
+        function CrabStrikeActionDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabStrikeActionDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabStrikeActionDA", CrabStrikeActionDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabTargetDummyC!");
+        function CrabTargetDummyC_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabTargetDummyC!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabTargetDummyC", CrabTargetDummyC_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabTotem!");
+        function CrabTotem_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabTotem!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabTotem", CrabTotem_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabTurret!");
+        function CrabTurret_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabTurret!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabTurret", CrabTurret_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabUI!");
+        function CrabUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabUI", CrabUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabUnlockedCosmeticUI!");
+        function CrabUnlockedCosmeticUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabUnlockedCosmeticUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabUnlockedCosmeticUI", CrabUnlockedCosmeticUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabVideoMenuUI!");
+        function CrabVideoMenuUI_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabVideoMenuUI!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabVideoMenuUI", CrabVideoMenuUI_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabWeapon!");
+        function CrabWeapon_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabWeapon!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabWeapon", CrabWeapon_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabWeaponDA!");
+        function CrabWeaponDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabWeaponDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabWeaponDA", CrabWeaponDA_function, createdObject);
+        
+        print("hooking /Script/CrabChampions.CrabWeaponModDA!");
+        function CrabWeaponModDA_function(createdObject)
+            print("Created object of type /Script/CrabChampions.CrabWeaponModDA!");
+        end
+        
+        NotifyOnNewObject("/Script/CrabChampions.CrabWeaponModDA", CrabWeaponModDA_function, createdObject);
+        
