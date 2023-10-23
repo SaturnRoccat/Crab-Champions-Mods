@@ -2,7 +2,7 @@
 This is a collection of mods I have made for the game [Crab Champions](https://store.steampowered.com/app/774801/Crab_Champions/) using [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS).
 # FAQ
 1. Can I get banned when using these? No. The developer does not mind modding
-2. How do I install the mods? [Click Here](https://www.google.com)
+2. How do I install the mods? [Click Here]([https://www.google.com](https://github.com/Duckos-Mods/Crab-Champions-Mods#installing))
 3. Do these mods work online? I make these mods with the intent they are used in solo play but I do use them with friends online sometimes so most should work but if they do not I will not look into it!
 4. How can I make mods to? 
 	1. Download and install [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS).
