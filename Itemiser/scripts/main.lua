@@ -96,5 +96,26 @@ function ModifyPlayerData(CRAB, nim)
     end
 end
 
+Keybinds = {
+    ["RandomizeMods"] = {["Key"] = Key.R, ["ModifierKeys"] = {ModifierKey.CONTROL}} -- Randomize inventory keybind set to Ctrl + R
+}
 
-RegisterHook("/Script/CrabChampions.CrabPC:ClientOnEnteredPortal", ModifyPlayerData, CRAB, nim);
+local function RandomizeMods()
+    print("[itemiser] Randomization key pressed!")
+    GetAllModData()
+    local CrabPS = FindAllOf("CrabPS")
+    for i, c in ipairs(CrabPS) do
+        print(string.format("[itemiser] randomising player %s", i))
+        RandomiseWMD(c)
+    end
+end
+
+local function RegisterKey(KeyBindName, Callable)
+    if (Keybinds[KeyBindName] and not IsKeyBindRegistered(Keybinds[KeyBindName].Key, Keybinds[KeyBindName].ModifierKeys)) then
+        RegisterKeyBindAsync(Keybinds[KeyBindName].Key, Keybinds[KeyBindName].ModifierKeys, Callable)
+    end
+end
+
+RegisterKey("RandomizeMods", RandomizeMods) 
+
+-- RegisterHook("/Script/CrabChampions.CrabPC:ClientOnEnteredPortal", ModifyPlayerData, CRAB, nim);
